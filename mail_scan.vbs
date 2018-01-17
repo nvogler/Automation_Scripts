@@ -10,7 +10,7 @@ If TypeOf Item Is MailItem Then
       Dim re As Object
       Dim s As String
 	  
-      Const aPat As String = "attached"
+      Const aPat As String = "attach"
       Const ePat As String = "enclosed"
     
     Set myMailToSend = Item
